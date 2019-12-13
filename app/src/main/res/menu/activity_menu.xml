@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/login"
+        android:title="@string/login" />
+    <item android:id="@+id/patient"
+        android:title="@string/patient" />
+    <item android:id="@+id/update"
+        android:title="@string/update" />
+    <item android:id="@+id/test"
+        android:title="@string/test" />
+    <item android:id="@+id/viewTest"
+        android:title="@string/viewTest" />
+</menu>

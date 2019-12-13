@@ -1,120 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".TestActivity">
 
-    <ImageView
-        android:id="@+id/imageView4"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="190dp"
-        app:srcCompat="@drawable/new_test" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:srcCompat="@drawable/new_test" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/fredoka_one"
-        android:text="                                     New Test" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="                                     New Test" />
 
-    <TextView
-        android:id="@+id/TestIdLabel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/fredoka_one"
-        android:text="   Test ID" />
+        <TextView
+            android:id="@+id/TestIdLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="   Test ID" />
 
-    <EditText
-        android:id="@+id/testIDText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:fontFamily="@font/fredoka_one"
-        android:inputType="number" />
+        <EditText
+            android:id="@+id/testIDText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/fredoka_one"
+            android:inputType="number" />
 
-    <TextView
-        android:id="@+id/patientIDLabel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/fredoka_one"
-        android:text="    Patient ID" />
+        <TextView
+            android:id="@+id/patientIDLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="    Patient ID" />
 
-    <EditText
-        android:id="@+id/patientIDText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:fontFamily="@font/fredoka_one"
-        android:inputType="number" />
+        <EditText
+            android:id="@+id/patientIDText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/fredoka_one"
+            android:inputType="number" />
 
-    <TextView
-        android:id="@+id/bloodTypeLabel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/fredoka_one"
-        android:text="   Blood Type" />
+        <TextView
+            android:id="@+id/bloodTypeLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="   Blood Type" />
 
-    <EditText
-        android:id="@+id/bloodTypeText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:fontFamily="@font/fredoka_one"
-        android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/bloodTypeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/fredoka_one"
+            android:inputType="textPersonName" />
 
-    <TextView
-        android:id="@+id/BPLLabel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/fredoka_one"
-        android:text="    BPL" />
+        <TextView
+            android:id="@+id/BPLLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="    BPL" />
 
-    <EditText
-        android:id="@+id/BPLText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:fontFamily="@font/fredoka_one"
-        android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/BPLText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/fredoka_one"
+            android:inputType="textPersonName" />
 
-    <TextView
-        android:id="@+id/BPHLabel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/fredoka_one"
-        android:text="    BPH" />
+        <TextView
+            android:id="@+id/BPHLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="    BPH" />
 
-    <EditText
-        android:id="@+id/BPHText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:fontFamily="@font/fredoka_one"
-        android:inputType="textPersonName" />
+        <EditText
+            android:id="@+id/BPHText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/fredoka_one"
+            android:inputType="textPersonName" />
 
-    <TextView
-        android:id="@+id/temperatureLabel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/fredoka_one"
-        android:text="    Temperature" />
+        <TextView
+            android:id="@+id/temperatureLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="    Temperature" />
 
-    <EditText
-        android:id="@+id/temperatureText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:fontFamily="@font/fredoka_one"
-        android:inputType="number" />
+        <EditText
+            android:id="@+id/temperatureText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="@font/fredoka_one"
+            android:inputType="number" />
 
-    <Button
-        android:id="@+id/saveTestBtn"
-        style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/fredoka_one"
-        android:text="SAVE" />
-</LinearLayout>
+        <Button
+            android:id="@+id/saveTestBtn"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="SAVE" />
+        <fragment
+            android:id="@+id/text_view_fragment"
+            android:name="com.example.johnyuayan_comp304lab4.OptionsMenuFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_options_menu" />
+    </LinearLayout>
+
+</ScrollView>

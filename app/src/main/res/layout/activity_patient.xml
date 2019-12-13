@@ -29,7 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/fredoka_one"
-            android:text="    PatientId" />
+            android:text="    Patient ID" />
 
         <EditText
             android:id="@+id/patientIDText"
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/fredoka_one"
-            android:text="    Paitent Name" />
+            android:text="    Patient Last Name" />
 
         <EditText
             android:id="@+id/patientLastNameText"
@@ -112,5 +112,11 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10sp"
             android:fontFamily="@font/fredoka_one" />
+        <fragment
+            android:id="@+id/text_view_fragment"
+            android:name="com.example.johnyuayan_comp304lab4.OptionsMenuFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_options_menu" />
     </LinearLayout>
 </ScrollView>

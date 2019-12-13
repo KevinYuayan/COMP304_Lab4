@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">johnYuayan_COMP304Lab4</string>
+    <string name="app_name">John and Kashdeep COMP304Lab4</string>
+
+    <string name="login">Login</string>
+    <string name="patient">Add Patient</string>
+    <string name="test">Add Test</string>
+    <string name="update">Update Patient</string>
+    <string name="viewTest">View Tests</string>
 </resources>
